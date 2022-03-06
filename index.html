@@ -8,12 +8,14 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light ">
-        <div class="container justify-content-between">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light ">
+        <div class="container ">
             <a class="navbar-brand" href="#">Brand</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbar1">
@@ -36,68 +38,152 @@
     </nav>
 
 
-    <div class="banner">
+    <!-- <div class="banner">
         <img src="fruits.jpg" alt="" width="100%">
         <p class="title">Our products</p>
+    </div> -->
+
+
+    <div class="banner">
+        <div>
+            <h1 class="title">Take the stress<br>out of meantime</h1>
+            <h3 class="subtitle">Product natural</h3>
+            <button class="btn btn-success btn-show-more">
+                <a href="#our-products">Vezi produsele noastre</a></button>
+        </div>
     </div>
 
 
-
-
-
-
-
-    <div class="categories-grid">
-        <nav class="categories text-center">
-            <ul class="portfolio_filter">
-                <li><a href="#dried_fruits" id="dried_fruits" class="active" data-filter="*">Dried fruits</a></li>
-
-            </ul>
-        </nav>
-    </div>
-
-    <div class="no-padding portfolio_container clearfix">
-
-        <!-- section -->
-        <section class="haf_layout section">
-            <div class="container">
-                <div class="row product_section">
-
-
-                    <div class="col-md-4">
-                        <div class="full product_blog margin_top_30">
-                            <img src="images/dried_banana.jpg" alt="#" />
-                            <h3><span style="color: #cab05c !important;"></span>Dried bananas</h3>
-                        </div>
+    <div class="why-us container">
+        <div>
+            <p class="why-us-title">Beneficiile productelor noastre</p>
+            <div class="benefits">
+                <div class="benefit">
+                    <div>
+                        <img src="images/immunity.png">
                     </div>
-
-                    <div class="col-md-4">
-                        <div class="full product_blog margin_top_30">
-                            <img src="images/dried_nuts.jpg" alt="#" />
-                            <h3><span style="color: #cab05c !important;"></span>Dried nuts</h3>
-                        </div>
+                    <div class="benefit-title-div">
+                        <p class="benefit-title">Mareste imunitatea<br> organismului</p>
                     </div>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="full product_blog margin_top_30">
-                            <img src="images/dried_orange.jpg" alt="#" />
-                            <h3><span style="color: #cab05c !important;"></span>Dried oranges</h3>
-                        </div>
+                <div class="benefit">
+                    <div>
+                        <img src="images/no_anxiety.png">
                     </div>
-
-                    <div class="col-md-4">
-                        <div class="full product_blog margin_top_30">
-                            <img src="images/dried_peach.jpg" alt="#" />
-                            <h3><span style="color: #cab05c !important;"></span>Dried peaches</h3>
-                        </div>
+                    <div class="benefit-title-div">
+                        <p class="benefit-title">Scade simptomele de<br>anxietate si depresie</p>
                     </div>
+                </div>
 
+                <div class="benefit">
+                    <div>
+                        <img src="images/lose_weight.png">
+                    </div>
+                    <div class="benefit-title-div">
+                        <p class="benefit-title">Ajuta la pierderea in greutate</p>
+                    </div>
+                </div>
 
+                <div class="benefit">
+                    <div>
+                        <img src="images/heart_health.png">
+                    </div>
+                    <div class="benefit-title-div">
+                        <p class="benefit-title">Imbunatatesc sanatatea inimii</p>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 
+
+
+    <!-- <div class="container">
+        <div class="row blog">
+            <div class="col-md-12">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                     Carousel items 
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/dried_banana.jpg" alt="Image" style="max-width:100%;">
+                                
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/dried_nuts.jpg" alt="Image" style="max-width:100%;">
+                                
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/dried_orange.jpg" alt="Image" style="max-width:100%;">
+                                
+                                </div>
+                                <div class="col-md-3">
+                                        <img src="images/dried_peach.jpg" alt="Image" style="max-width:100%;">
+
+                                </div>
+                            </div>
+                            .row--
+                        </div>
+                        .item
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                        <img src="images/dried_banana.jpg" alt="Image" style="max-width:100%;">
+                                </div>
+                                <div class="col-md-3">
+                                        <img src="images/dried_nuts.jpg" alt="Image" style="max-width:100%;">
+                                </div>
+                                <div class="col-md-3">
+                                        <img src="images/dried_orange.jpg" alt="Image" style="max-width:100%;">
+                                </div>
+                                <div class="col-md-3">
+                                        <img src="images/dried_peach.jpg" alt="Image" style="max-width:100%;">
+                                </div>
+                            </div>
+                            .row
+                        </div>
+                        .item
+
+                    </div>
+                    .carousel-inner
+                </div>
+                .Carousel
+
+            </div>
+        </div>
+</div> -->
+
+    <div class="products-title" id="our-products">
+        <p>Produsele noastre</p>
+    </div>
+    <div class="products-carousel">
+        <div class="product-carousel-div">
+            <img src="images/dried_banana.jpg" alt="" srcset="">
+        </div>
+        <div class="product-carousel-div">
+            <img src="images/dried_nuts.jpg" alt="" srcset="">
+        </div>
+        <div class="product-carousel-div">
+            <img src="images/dried_orange.jpg" alt="" srcset="">
+        </div>
+        <div class="product-carousel-div">
+            <img src="images/dried_peach.jpg" alt="" srcset="">
+        </div>
+    </div>
+    <div class="btn-show-all-products">
+        <button class="btn btn-success btn-all-products">
+            <a href="">Vezi toate produsele</a></button>
+    </div>
 
     <!-- jQuery library -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
@@ -107,6 +193,22 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+    <script>
+        $('.products-carousel').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            variableWidth: true
+        });
+                
+    </script>
 </body>
 
 </html>
