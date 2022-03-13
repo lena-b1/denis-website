@@ -1,10 +1,10 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
-    height: 2500px;
-    overflow-x: hidden;
+    /* height: 2500px;    */
 }
 
 
