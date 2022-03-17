@@ -151,7 +151,7 @@
 .fruct_nuts {
     height: 80%;
     width: 100%;
-    background: url(../images/dried_nuts.jpg) no-repeat center center;
+    background: url(../images/dried_nuts.png) no-repeat center center;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -161,7 +161,7 @@
 .fruct_banana {
     height: 80%;
     width: 100%;
-    background: url(../images/dried_banana.jpg) no-repeat center center;
+    background: url(../images/dried_banana.png) no-repeat center center;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -171,7 +171,7 @@
 .fruct_orange {
     height: 80%;
     width: 100%;
-    background: url(../images/dried_orange.jpg) no-repeat center center;
+    background: url(../images/dried_orange.png) no-repeat center center;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -181,7 +181,60 @@
 .fruct_peach {
     height: 80%;
     width: 100%;
-    background: url(../images/dried_peach.jpg) no-repeat center center;
+    background: url(../images/dried_peach.png) no-repeat center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.fruct_apple {
+    height: 80%;
+    width: 100%;
+    background: url(../images/dried_appples.png) no-repeat center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+
+.fruct_prune {
+    height: 80%;
+    width: 100%;
+    background: url(../images/dried_prunes.png) no-repeat center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+
+.fruct_curma {
+    height: 80%;
+    width: 100%;
+    background: url(../images/dried_curma.png) no-repeat center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.fruct_fig {
+    height: 80%;
+    width: 100%;
+    background: url(../images/dried_figs.png) no-repeat center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+
+.fruct_raisins {
+    height: 80%;
+    width: 100%;
+    background: url(../images/dried_raisins.png) no-repeat center center;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
